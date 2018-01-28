@@ -44,13 +44,13 @@ Fix: Prefix command with sudo -H (see below)
 
 or You get: `Error: fatal error: 'openssl/aes.h' file not found`
 
-Fix: brew install pyenv
+Fix: `brew install pyenv`
 
-Alternative fix: Run this instead sudo -H env LDFLAGS="-L$(brew --prefix openssl)/lib" CFLAGS="-I$(brew --prefix openssl)/include" python3 setup.py install
+Alternative fix: Run this instead `sudo -H env LDFLAGS="-L$(brew --prefix openssl)/lib" CFLAGS="-I$(brew --prefix openssl)/include" python3 setup.py install`
 
 ### python3 garlium
 You get: `Error: Error: Could not import PyQt5 on Linux systems, you may try 'sudo apt-get install python3-pyqt5'`
 
-Fix: pip3 install pyqt5
+Fix: `pip3 install pyqt5`
 
 Hope this helps!

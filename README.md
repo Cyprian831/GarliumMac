@@ -54,3 +54,5 @@ You get: `Error: Error: Could not import PyQt5 on Linux systems, you may try 'su
 Fix: `pip3 install pyqt5`
 
 Hope this helps!
+
+[Take me back to the hub!](https://cyprian831.github.io/Garlicoin/)

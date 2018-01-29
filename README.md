@@ -55,4 +55,4 @@ Fix: `pip3 install pyqt5`
 
 Hope this helps!
 
-[Take me back to the hub!](https://cyprian831.github.io/Garlicoin/)
+###### [Take me back to the hub!](https://cyprian831.github.io/Garlicoin/)

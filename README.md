@@ -1,3 +1,5 @@
+# Issues with Garlium for Mac
+
 ## Graciously made by u/moomoohk on reddit
 
 ###### Adapted for github by @Cyprian01 

@@ -2,7 +2,7 @@
 
 ## Graciously made by u/moomoohk on reddit
 
-###### Adapted for github by @Cyprian01 
+###### Adapted for github by @Cyprian01 (It's still a cluster as it was originally made on reddit and Github is hard man)
 
 ### For those people who had trouble installing Garlium on Mac (despite the simple instructions on https://xske.github.io/garlium/ )
 

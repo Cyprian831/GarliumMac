@@ -12,13 +12,13 @@ For each line in the instructions I'll detail issues I came across and their fix
 
 ### sudo pip install virtualenv
 
-You get:
+#### You get:
 ```
 Error: The directory '/Users/<user>/Library/Caches/pip/http' or its parent directory is not owned by the current user Fix: Add -H flag sudo -H pip install virtualenv
 ```
 ### virtualenv ./ --python=python3
 
-You get:
+#### You get:
 `Error: ImportError: No module named virtualenv`
 
 Fix:
@@ -29,7 +29,7 @@ and then this: `pip3 install virtualenvwrapper`
 
 ### python3 setup.py install
 
-You get:
+#### You get:
 `Error: TEST FAILED: /lib/python3.6/site-packages/ does NOT support .pth files`
 
 Fix: Find your python3 install dir (which python3) and cut the path up to before the bin directory. Put the result into the file setup.cfg
@@ -39,19 +39,20 @@ For example, my which python3 for me returns /Library/Frameworks/Python.framewor
 [install]
 prefix=/Library/Frameworks/Python.framework/Versions/3.6/
 
-or You get:
+#### or You get:
 `Error: [Errno 13] Permission denied: ...`
 
 Fix: Prefix command with sudo -H (see below)
 
-or You get: `Error: fatal error: 'openssl/aes.h' file not found`
+#### or You get: 
+`Error: fatal error: 'openssl/aes.h' file not found`
 
 Fix: `brew install pyenv`
 
 Alternative fix: Run this instead `sudo -H env LDFLAGS="-L$(brew --prefix openssl)/lib" CFLAGS="-I$(brew --prefix openssl)/include" python3 setup.py install`
 
 ### python3 garlium
-You get: `Error: Error: Could not import PyQt5 on Linux systems, you may try 'sudo apt-get install python3-pyqt5'`
+#### You get: `Error: Error: Could not import PyQt5 on Linux systems, you may try 'sudo apt-get install python3-pyqt5'`
 
 Fix: `pip3 install pyqt5`
 
